@@ -1,0 +1,1 @@
+﻿from datetime import date as d;x,s=map(int,input().split());print(d.ctime(d(2007,x,s))[0:3].upper())

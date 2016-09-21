@@ -1,0 +1,1 @@
+﻿k=2**int(input())-1;print(bin(k*(k+1)//2)[2:])

@@ -1,0 +1,1 @@
+l=[list(map(int,input().split()))for i in range(int(input()))];print(" ".join([str(sum([1for x,y in l if a<x and b<y])+1)for a,b in l]))

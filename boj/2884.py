@@ -1,0 +1,1 @@
+﻿h,m=map(int,input().split());print((h+23+(m+15)//60)%24,(m+15)%60)

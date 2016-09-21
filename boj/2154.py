@@ -1,0 +1,1 @@
+n=input();print("".join(list(str(i) for i in range(1,int(n)+1))).find(n)+1)
