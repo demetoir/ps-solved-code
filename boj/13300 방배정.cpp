@@ -1,9 +1,9 @@
+//13300 πÊπË¡§
 
 #include <stdio.h>
 #include <algorithm>
 #include <vector>
 #include <queue>
-#include <functional>
 using namespace std;
 
 #pragma warning(disable:4996)
@@ -11,34 +11,28 @@ using namespace std;
 #define pii				pair<int, int>
 #define si(a)           scanf("%d", &(a))
 #define sc(a)           scanf("%c", &(a))
-#define sLL(a)			scanf("%lld", &(a))
 #define ss(a)           scanf("%s", (a))
 #define all(a)			(a).begin() , (a).end()
 #define INF             2e9
 #define LLINF			1e17
 #define MAX_N			10001
-#define pb(a)			push_back((a))
 
-LL ans;
-LL a, b;
+int n, k;
+int A[7];
+int B[7];
 int main() {
-	int test;
-	for (si(test); test > 0; test--) {
-		sLL(a); sLL(b);
-		LL A = 0, B = 0;
-		while (a) {
-			A += a;
-			a /= 2;
-		}
-		while (b) {
-			A += b;
-			b /= 2;
-		}
-		ans = B-A;
-		printf("%d"\n)'
+	si(n); si(k);
+	for (int i = 0,a,b; i < n; i++) {
+		si(a); si(b);
+		if (a == 0)A[b] ++;
+		else B[b] ++;
 	}
-
-
-
+	int ans = 0;
+	for (int i = 1; i <= 6; i++) {
+		ans += A[i] / k+B[i]/k;
+		if (A[i] % k) ans++;
+		if (B[i] % k) ans++;
+	}
+	printf("%d\n",ans);
 	return 0;
 }
