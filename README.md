@@ -8,9 +8,8 @@ to see user page [here](https://www.acmicpc.net/user/wnsqlehlswk)
 
 # Competition history
 
-* 2016 lg code monster 본선 진출
-* 2016 scpc 예선 2차 진출
-* 2017 scpc 예선 2차 진출
+* 2016 lg code monster 본선 진출 (예선 전체 참가자수 약 1500명, 본선 진출자수 약 70명)
+
 
 ## used language 
 
