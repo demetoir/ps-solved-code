@@ -2,8 +2,8 @@
 
 ## [Beakjoon Online Judge](https://www.acmicpc.net/)
 
-[boj user page link](https://www.acmicpc.net/user/wnsqlehlswk)
-[solved.ac user page link](https://solved.ac/profile/wnsqlehlswk)
+* [boj user page link](https://www.acmicpc.net/user/wnsqlehlswk)
+* [solved.ac user page link](https://solved.ac/profile/wnsqlehlswk)
 
 ![alt](https://raw.githubusercontent.com/demetoir/ps-solved-code/master/image/screencapture-solved-ac-profile-wnsqlehlswk-2020-06-12-20_18_12.png)
 
